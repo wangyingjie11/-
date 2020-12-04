@@ -1,0 +1,215 @@
+.iphone_left {
+  float: left;
+  width: 413px;
+}
+.text {
+  font-size: 12px;
+  margin-top: 25px;
+}
+.text p a {
+  margin: 0 11px;
+}
+.ip_one {
+  color: #333333;
+}
+.ip_pic {
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  border: 1px solid #ededed;
+}
+.ip_pic img {
+  width: 100%;
+  height: 100%;
+}
+.ip_pic_center {
+  width: 400px;
+  height: 32px;
+  position: relative;
+  margin-top: 60px;
+}
+.ip_pic_center .prev {
+  position: absolute;
+  left: 0;
+  top: 46px;
+  width: 22px;
+  height: 32px;
+  background: url(../images/arrow-prev.png);
+}
+.ip_pic_center .next {
+  position: absolute;
+  right: 0;
+  top: 46px;
+  width: 22px;
+  height: 32px;
+  background: url(../images/arrow-next.png);
+}
+.ip_pic_center ul {
+  width: 300px;
+  margin: auto;
+}
+.ip_pic_center ul li {
+  float: left;
+}
+.anniou {
+  border: 2px solid red;
+}
+.prev {
+  height: 32px;
+  width: 22px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -30px;
+}
+.next {
+  height: 32px;
+  width: 22px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -30px;
+}
+.iphone_right {
+  float: left;
+  width: 717px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.iphone_right_one h4 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.iphone_right_one p {
+  color: #e12228;
+}
+.iphone_right_two {
+  width: 717px;
+  margin-top: 20px;
+}
+.iphone_right_two dl {
+  height: 31px;
+  line-height: 31px;
+}
+.iphone_right_two dl dt {
+  float: left;
+  width: 60px;
+  margin-right: 20px;
+}
+.iphone_right_two dl dt p {
+  display: block;
+  width: 60px;
+  color: #666666;
+  text-align-last: justify;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.iphone_right_two dl dd {
+  width: 657px;
+}
+.iphone_pink {
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 717px;
+  height: 113px;
+  background-color: pink;
+}
+.iphone_pink dl {
+  height: 31px;
+  line-height: 31px;
+}
+
+.iphone_pink dl dd span {
+  font-size: 16px;
+  color: #e12228;
+}
+.iphone_pink dl dd span strong {
+  font-size: 24px;
+  font-weight: 400;
+}
+.iphone_pink dl dd span em {
+  font-size: 12px;
+  color: #c81623;
+  margin-left: 5px;
+}
+.iphone_pink dl dd .leiji {
+  float: right;
+  font-size: 12px;
+  color: #999999;
+  margin-right: 10px;
+}
+.leiji i {
+  color: #1474af;
+}
+.xuanxiang {
+  padding-left: 10px;
+}
+.yanse {
+  margin-bottom: 20px;
+}
+.yanse dd a {
+  display: inline-block;
+  width: 80px;
+  height: 41px;
+  background-color: #f7f7f7;
+  border: 1px solid #ededed;
+  text-align: center;
+  line-height: 41px;
+}
+.yanse dd .meigui {
+  border: 1px solid #c81623;
+}
+.shuliang dd input {
+  width: 34px;
+  height: 45px;
+  border: 1px solid #999999;
+  text-align: center;
+}
+.shuliang {
+  position: relative;
+}
+.shuliang dd .jia {
+  position: absolute;
+  left: 33px;
+  top: 0px;
+  display: block;
+  height: 23px;
+  width: 17px;
+  line-height: 23px;
+  border: 1px solid #999999;
+  text-align: center;
+  cursor: pointer;
+}
+
+.shuliang dd .jian {
+  position: absolute;
+  left: 33px;
+  top: 22px;
+  display: block;
+  height: 23px;
+  width: 17px;
+  line-height: 23px;
+  border: 1px solid #999999;
+  text-align: center;
+  cursor: not-allowed;
+}
+.shuliang .gouwuche {
+  position: absolute;
+  left: 60px;
+  top: 0;
+  width: 142px;
+  height: 46px;
+  background-color: #c81623;
+  text-align: center;
+  line-height: 46px;
+}
+.shuliang .gouwuche a {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.shuliang .gouwuche a:hover {
+  color: #e33333;
+}

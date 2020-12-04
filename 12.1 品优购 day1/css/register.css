@@ -1,0 +1,138 @@
+.logo {
+  position: absolute;
+  top: 28px;
+  width: 171px;
+  height: 61px;
+}
+.logo a {
+  display: block;
+  width: 171px;
+  height: 61px;
+  background: url(../images/logo.png) no-repeat;
+  /* 第一种做法 */
+  /* font-size: 0; 淘宝做法 */
+  /* 京东做法 */
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.head {
+  position: relative;
+  height: 92px;
+  border-bottom: 2px solid #b1191a;
+  margin-bottom: 20px;
+}
+.tab {
+  margin-top: 20px;
+  border: 1px solid #dfdfdf;
+}
+.tab_hd {
+  height: 41px;
+  line-height: 41px;
+  background-color: #ececec;
+}
+.tab_hd h4 {
+  float: left;
+  font-size: 18px;
+  color: #767676;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.tab_hd p {
+  float: right;
+  font-size: 14px;
+  color: #767676;
+  margin-right: 10px;
+}
+.tab_hd p a {
+  color: #b1191a;
+}
+.tab_bd {
+  width: 560px;
+  margin: 50px auto 0;
+  padding-bottom: 49px;
+}
+.tab_bd ul li {
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.tab_bd ul li p {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.tab_bd ul li .inp {
+  width: 240px;
+  height: 36px;
+  border: 1px solid #999999;
+}
+.tab_bd ul li:nth-child(4) {
+  margin-top: -10px;
+}
+.tab_bd ul li:nth-child(4) p {
+  float: left;
+  margin-left: 130px;
+  margin-right: 10px;
+}
+.tab_bd ul li span {
+  color: #b1191a;
+}
+
+.tab_bd ul li:nth-child(2) span {
+  color: #40b83f;
+}
+
+.tab_bd ul li .anquan {
+  float: left;
+}
+.anquan i:nth-child(1) {
+  height: 12px;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #de1111;
+}
+.anquan i:nth-child(2) {
+  height: 12px;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #40b83f;
+}
+.anquan i:nth-child(3) {
+  height: 12px;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #f79100;
+}
+.tab_bd ul li span::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/error.png) no-repeat;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.tab_bd ul li:nth-child(2) span::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/success.png) no-repeat;
+  vertical-align: middle;
+}
+.tab_bd ul li:nth-child(6) {
+  margin-left: 100px;
+}
+.tab_bd ul li:nth-child(6) a {
+  color: #74bded;
+}
+
+.submit {
+  width: 200px;
+  height: 34px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: #c81623;
+}
